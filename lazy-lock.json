@@ -1,0 +1,10 @@
+{
+  "conform.nvim": { "branch": "master", "commit": "278376b953bcab65e2ab9508b5575d1f9a2cbac1" },
+  "cyberdream.nvim": { "branch": "main", "commit": "7e6feb49d2ec47a742215754ec0ecc51eebba55a" },
+  "lazy.nvim": { "branch": "main", "commit": "cf8ecc2c5e4332760431a33534240b0cbc6680ab" },
+  "mason-lspconfig.nvim": { "branch": "main", "commit": "7446f47b3dfb7df801f31a6f6783c2ad119a6935" },
+  "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
+  "nvim-lint": { "branch": "master", "commit": "16b21a7d04d06661f92f273a0744fd81fb19e09e" },
+  "nvim-lspconfig": { "branch": "master", "commit": "28b205ebe73a18f401e040585106f9bafd8ff21f" },
+  "vim-startuptime": { "branch": "master", "commit": "ac2cccb5be617672add1f4f3c0a55ce99ba34e01" }
+}
