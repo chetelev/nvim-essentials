@@ -19,7 +19,7 @@ return {
 				python = { "ruff" },
 
 				-- Lua
-				lua = { "selene" },
+				-- lua = { "selene" },
 
 				-- Go
 				go = { "golangcilint" },
