@@ -9,7 +9,7 @@ return {
 	},
 	keys = {
 		{
-			"<leader>f",
+			"<leader>cf",
 			function()
 				require("conform").format()
 			end,
