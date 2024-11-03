@@ -18,6 +18,12 @@ vim.opt.updatetime = 250 -- Decrease update time
 vim.opt.timeoutlen = 300 -- Time to wait for a mapped sequence to complete
 vim.opt.clipboard = "unnamedplus"
 
+-- Move between buffers
+vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
+vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
+vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
+vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+
 require("config.lazy")
 
 -- Telescope
@@ -29,3 +35,6 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Find help" })
 
 -- Optional: File browser extension (if installed)
 vim.keymap.set("n", "<leader>fe", ":Telescope file_browser<CR>", { desc = "File browser" })
+
+-- Neotree
+vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
