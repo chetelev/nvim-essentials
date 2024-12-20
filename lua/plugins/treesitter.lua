@@ -16,6 +16,7 @@ return {
 				"javascript",
 				"html",
 				"typescript",
+        "python"
 			},
 			sync_install = false,
 			highlight = { enable = true },

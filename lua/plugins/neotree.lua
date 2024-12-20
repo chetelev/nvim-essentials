@@ -46,7 +46,7 @@ return {
 				position = "left",
 				width = 30,
 				mappings = {
-					["o"] = "open",
+					["l"] = "open",
 					["<CR>"] = "open",
 					["<C-s>"] = "open_split",
 					["<C-v>"] = "open_vsplit",

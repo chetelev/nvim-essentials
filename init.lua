@@ -17,6 +17,7 @@ vim.opt.scrolloff = 8 -- Lines of context
 vim.opt.updatetime = 250 -- Decrease update time
 vim.opt.timeoutlen = 300 -- Time to wait for a mapped sequence to complete
 vim.opt.clipboard = "unnamedplus"
+vim.opt.guicursor = "n-v-c:block-Cursor/lCursor,i-ci:ver25,r-cr:hor20,o:hor50"
 
 -- Move between buffers
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
@@ -38,3 +39,4 @@ vim.keymap.set("n", "<leader>fe", ":Telescope file_browser<CR>", { desc = "File 
 
 -- Neotree
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
+vim.keymap.set("n", "<C-e>", ":Neotree focus<CR>", { desc = "Focus Neo-tree" })
