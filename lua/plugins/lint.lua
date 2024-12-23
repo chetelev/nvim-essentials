@@ -12,8 +12,8 @@ return {
 
 				-- HTML/CSS
 				html = { "htmlhint" },
-				css = { "stylelint" },
-				scss = { "stylelint" },
+				-- css = { "stylelint" },
+				-- scss = { "stylelint" },
 
 				-- Python
 				python = { "ruff" },
