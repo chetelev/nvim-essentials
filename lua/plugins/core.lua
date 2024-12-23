@@ -12,6 +12,7 @@ return {
 					"cssls",
 					"jsonls",
 					"eslint",
+					"tailwindcss",
 				},
 			})
 		end,
@@ -64,6 +65,11 @@ return {
 			require("lspconfig").eslint.setup({
 				on_attach = on_attach,
 			})
+
+			require("lspconfig").tailwindcss.setup({
+				capabilities = capabilities,
+			})
+
 		end,
 	},
 }
