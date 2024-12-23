@@ -5,6 +5,7 @@ return {
 			lua = { "stylua" },
 			python = { "black" },
 			javascript = { "prettier" },
+			html = { "prettier" },
 		},
 	},
 	keys = {
