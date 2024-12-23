@@ -1,9 +1,13 @@
 return {
-	"folke/tokyonight.nvim",
+	"Mofiqul/vscode.nvim",
 	lazy = false,
 	priority = 1000,
-	opts = {},
-	config = function()
-		vim.cmd([[colorscheme tokyonight]])
+	opts = {
+		transparent = true,
+		italic_comments = true,
+	},
+	config = function(_, opts)
+		require("vscode").setup(opts)
+		vim.cmd([[colorscheme vscode]])
 	end,
 }
