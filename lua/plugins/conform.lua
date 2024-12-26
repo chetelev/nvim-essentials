@@ -6,6 +6,8 @@ return {
 			python = { "black" },
 			javascript = { "prettier" },
 			html = { "prettier" },
+			typescript = { "prettier" },
+			typescriptreact = { "prettier" },
 		},
 	},
 	keys = {
