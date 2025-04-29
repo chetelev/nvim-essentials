@@ -1,13 +1,8 @@
 return {
-	"Mofiqul/vscode.nvim",
-	lazy = false,
+	"ellisonleao/gruvbox.nvim",
 	priority = 1000,
-	opts = {
-		transparent = true,
-		italic_comments = true,
-	},
-	config = function(_, opts)
-		require("vscode").setup(opts)
-		vim.cmd([[colorscheme vscode]])
+	lazy = false,
+	config = function()
+		vim.cmd("colorscheme gruvbox")
 	end,
 }

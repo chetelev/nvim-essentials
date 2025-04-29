@@ -13,7 +13,22 @@ return {
 					"jsonls",
 					"eslint",
 					"tailwindcss",
+					"prettier",
 				},
+			})
+		end,
+	},
+	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		config = function()
+			require("mason-tool-installer").setup({
+				ensure_installed = {
+					"prettier",
+					"eslint_d",
+					"stylua",
+					"black",
+				},
+				run_on_start = true,
 			})
 		end,
 	},
@@ -69,7 +84,6 @@ return {
 			require("lspconfig").tailwindcss.setup({
 				capabilities = capabilities,
 			})
-
 		end,
 	},
 }
