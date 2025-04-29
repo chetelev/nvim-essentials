@@ -13,7 +13,6 @@ return {
 					"jsonls",
 					"eslint",
 					"tailwindcss",
-					"prettier",
 				},
 			})
 		end,
